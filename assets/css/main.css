@@ -34,19 +34,19 @@ body {
     video {
         width: 100%;
         height: auto;
-        max-width: 600px; /* 桌面端最大宽度限制 */
+        max-width: 350px; /* 桌面端最大宽度限制 */
       }
 
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 400px) {
         #mindVideo {
           width: 100vw !important;
           height: 56.25vw !important; /* 16:9比例计算 */
         }
       }
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 200px) {
         #mindVideo {
-          width: 600px;
-          height: 337.5px;
+          width: 350px;
+          height: 196.875px;
         }
       }
 
